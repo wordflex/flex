@@ -1,12 +1,16 @@
 {
-    "name": "symfony/flex",
+    "name": "wordflex/flex",
     "type": "composer-plugin",
-    "description": "Composer plugin for Symfony",
+    "description": "Composer plugin for Wordflex",
     "license": "MIT",
     "authors": [
         {
             "name": "Fabien Potencier",
             "email": "fabien.potencier@gmail.com"
+        },
+        {
+            "name": "Bao Tran",
+            "email": "baotd.weebpal@gmail.com"
         }
     ],
     "require": {
@@ -21,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Symfony\\Flex\\": "src"
+            "Wordflex\\Flex\\": "src"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.5-dev"
         },
-        "class": "Symfony\\Flex\\Flex"
+        "class": "Wordflex\\Flex\\Flex"
     }
 }
